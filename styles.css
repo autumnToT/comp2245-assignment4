@@ -1,1 +1,45 @@
 /*styles.css*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 20px;
+}
+header {
+	background-color: lightblue;
+	color: white;
+	padding: 50px;
+	text-align: center;
+}
+#searchForm{
+	align-items: center;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+#searchText {
+	width: 1355px;
+	padding: 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+button {
+	border: none;
+	padding: 20px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 4px;
+}
+#searchButton {
+	background-color: red;
+	color: white;
+}
+#searchButton:hover {
+	background-color: white; 
+	color: black; 
+	border: 2px solid red;
+}
